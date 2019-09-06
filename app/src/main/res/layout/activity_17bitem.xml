@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/zzas_af_style"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/numberid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="01"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单号调度"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"/>
+</LinearLayout>

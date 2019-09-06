@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="@drawable/zzas_af_style"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:text="客户名称"
+        android:tag=""
+        android:gravity=""
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+    <TextView
+        android:id="@+id/stateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="待复核"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
+  -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    tools:context="com.zzas.awms.page.Activity03a">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="客户名称："
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <com.xuexiang.xui.widget.spinner.materialspinner.MaterialSpinner
+                style="@style/Material.SpinnerStyle"
+                android:id="@+id/clientSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ms_dropdown_max_height="80dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="入库仓库："
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <com.xuexiang.xui.widget.spinner.materialspinner.MaterialSpinner
+                style="@style/Material.SpinnerStyle"
+                android:id="@+id/warehouseSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ms_dropdown_max_height="80dp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/yesBut"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/zzas_ae_style"
+                android:textColor="@color/zzas02"
+                android:text="确定"/>
+            <Button
+                android:id="@+id/noBut"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/zzas_ae_style"
+                android:textColor="@color/zzas02"
+                android:text="取消"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

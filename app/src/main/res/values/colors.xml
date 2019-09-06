@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="zzas01">#15A2E7</color>
+    <color name="zzas02">#ffffff</color>
+    <color name="zzas03">#87CBED</color>
+    <color name="zzas04">#3686C3</color>
+    <color name="zzas05">#16B690</color>
+    <color name="zzas06">#F2AE5D</color>
+    <color name="zzas07">#F57158</color>
+    <color name="zzas08">#EEEEEE</color>
+    <color name="zzas09">#BDBDBD</color>
+    <color name="zzas10">#008000</color>
+    <color name="zzas11">#6E6E6E</color>
+    <color name="zzas12">#9EEA6A</color>
+
+
+</resources>

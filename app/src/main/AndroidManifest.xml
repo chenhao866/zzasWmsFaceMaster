@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zzas.awms.wmsapplication">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name="com.baidu.aip.fl.DemoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.zzas.awms.page.Activity19"></activity>
+        <activity android:name="com.zzas.awms.page.Activity18" />
+        <activity android:name="com.zzas.awms.page.Activity18a" />
+        <activity android:name="com.zzas.awms.page.Activity17c" />
+        <activity android:name="com.zzas.awms.page.Activity17b" />
+        <activity android:name="com.zzas.awms.page.Activity17a" />
+        <activity android:name="com.zzas.awms.page.Activity16d" />
+        <activity android:name="com.zzas.awms.page.Activity16c" />
+        <activity android:name="com.zzas.awms.page.Activity16b" />
+        <activity android:name="com.zzas.awms.page.Activity16a" />
+        <activity android:name="com.zzas.awms.page.Activity16" />
+        <activity android:name="com.zzas.awms.page.Activity15a" />
+        <activity android:name="com.zzas.awms.page.Activity15" />
+        <activity android:name="com.zzas.awms.page.Activity14c" />
+        <activity android:name="com.zzas.awms.page.Activity14b" />
+        <activity android:name="com.zzas.awms.page.Activity14a" />
+        <activity android:name="com.zzas.awms.page.Activity14" />
+        <activity android:name="com.zzas.awms.page.Activity13c" />
+        <activity android:name="com.zzas.awms.page.Activity13b" />
+        <activity android:name="com.zzas.awms.page.Activity13a" />
+        <activity android:name="com.zzas.awms.page.Activity13" />
+        <activity android:name="com.zzas.awms.page.Activity12b" />
+        <activity android:name="com.zzas.awms.page.Activity12a" />
+        <activity android:name="com.zzas.awms.page.Activity12" />
+        <activity android:name="com.zzas.awms.page.Activity11c" />
+        <activity android:name="com.zzas.awms.page.Activity11b" />
+        <activity android:name="com.zzas.awms.page.Activity11a" />
+        <activity android:name="com.zzas.awms.page.Activity11" />
+        <activity android:name="com.zzas.awms.page.Activity10b" />
+        <activity android:name="com.zzas.awms.page.Activity10a" />
+        <activity android:name="com.zzas.awms.page.Activity10" />
+        <activity android:name="com.zzas.awms.page.Activity09b" />
+        <activity android:name="com.zzas.awms.page.Activity09a" />
+        <activity android:name="com.zzas.awms.page.Activity09" />
+        <activity android:name="com.zzas.awms.page.Activity08" />
+        <activity android:name="com.zzas.awms.page.Activity07" />
+        <activity
+            android:name="com.zzas.awms.page.Activity06a"
+            android:theme="@style/zzasThemeaa" />
+        <activity
+            android:name="com.zzas.awms.page.Activity06"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.zzas.awms.page.Activity05"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.zzas.awms.page.Activity04"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.zzas.awms.page.Activity03a"
+            android:theme="@style/zzasThemeaa" />
+        <activity
+            android:name="com.zzas.awms.page.Activity03"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.zzas.awms.page.Activity02"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.zzas.awms.page.Activity01"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.baidu.aip.fl.MainActivity" />
+        <activity
+            android:name="com.baidu.aip.fl.RegActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.baidu.aip.fl.VerifyLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.baidu.aip.fl.DetectLoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.baidu.aip.fl.LoginResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.baidu.aip.fl.FaceDetectActivity"
+            android:screenOrientation="portrait" />
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    </application>
+
+</manifest>

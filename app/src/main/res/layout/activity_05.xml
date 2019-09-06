@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
+  -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zzas.awms.page.Activity05">
+    <TextView
+        android:id="@+id/signb"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/zzas01"
+        android:gravity="center"
+        android:text="验收清单"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/zzas02"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toBottomOf="@id/signb">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/signb">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="序列号："
+                    android:gravity="center"/>
+                <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                    android:id="@+id/series"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:hint="请输入序列号"
+                    android:inputType="text"
+                    app:met_allowEmpty="false"
+                    app:met_clearButton="true" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="实际数量："
+                    android:gravity="center"/>
+                <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                    android:id="@+id/sum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:hint="请输入实际数量"
+                    app:met_errorMessage="必须输入整数，且不能为0"
+                    android:inputType="text"
+                    app:met_allowEmpty="false"
+                    app:met_clearButton="true"
+                    app:met_regexp="^-?[1-9]\\d*$"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="入库时间："
+                    android:gravity="center"/>
+                <com.xuexiang.xui.widget.edittext.materialedittext.MaterialEditText
+                    android:id="@+id/enterTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.31"
+                    android:focusable="false"
+                    android:hint="请选择实际入库时间"
+                    android:inputType="text"
+                    app:met_allowEmpty="false" />
+                <ImageButton
+                    android:id="@+id/calendarBut"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@mipmap/calendar"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:scaleType="fitXY"
+                    android:background="#00000000"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1">
+
+                <com.xuexiang.xui.widget.edittext.MultiLineEditText
+                    android:id="@+id/difference"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:mlet_maxCount="150"
+                    app:mlet_showSurplusNumber="true"
+                    app:mlet_hintText="请输入差异备注"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <com.xuexiang.xui.widget.textview.supertextview.SuperButton
+                    style="@style/SuperButton.Green"
+                    android:id="@+id/reCheckBut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="确认复核"
+                    android:layout_margin="20dp"/>
+                <com.xuexiang.xui.widget.textview.supertextview.SuperButton
+                    style="@style/SuperButton.Gray"
+                    android:id="@+id/cancelBut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="20dp"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

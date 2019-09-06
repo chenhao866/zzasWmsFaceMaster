@@ -1,0 +1,93 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:1:1-36:12
+	package
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:2:5-35
+		INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+		INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+		INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+		INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:16:22-73
+application
+ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:18:5-34:19
+	android:allowBackup
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:20:9-40
+activity#com.baidu.tts.sample.MainActivity
+ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:21:9-24:20
+	android:name
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:21:19-67
+activity#com.baidu.tts.sample.SynthActivity
+ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:25:9-27:39
+	android:label
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:26:13-62
+activity#com.baidu.tts.sample.MiniActivity
+ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:28:9-30:37
+	android:label
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:30:13-34
+	android:name
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:29:13-61
+activity#com.baidu.tts.sample.SaveFileActivity
+ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:31:9-33:40
+	android:label
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml:32:13-65
+uses-sdk
+INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+		INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+		ADDED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml
+		INJECTED from C:\MyApp\04AndroidStudio\MYproject\zzasWmsFaceMaster\HeChen\src\main\AndroidManifest.xml

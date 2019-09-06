@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:orientation="vertical"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></LinearLayout>
+
+    <com.xuexiang.xui.widget.layout.XUILinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/xui_config_color_white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        app:xui_radius = "10dp"
+        app:xui_shadowAlpha = "1"
+        app:xui_shadowElevation = "10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/zzas09"
+                android:text="商品编码"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/productCode"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/zzas08"
+                android:text="商品编码"
+                android:layout_weight="0.3"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/zzas09"
+                android:text="商品名称"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/zzas08"
+                android:text="商品名称"
+                android:layout_weight="0.3"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/zzas09"
+                android:text="内包装规格"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/speciOne"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/zzas08"
+                android:text="内包装规格"
+                android:layout_weight="0.3"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/zzas09"
+                android:text="盘点数量"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/sumcount"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/zzas08"
+                android:text="盘点数量"
+                android:layout_weight="0.3"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/zzas09"
+                android:text="状态"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/zzas08"
+                android:text="状态"
+                android:layout_weight="0.3"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+
+
+    </com.xuexiang.xui.widget.layout.XUILinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></LinearLayout>
+</LinearLayout>
+
+

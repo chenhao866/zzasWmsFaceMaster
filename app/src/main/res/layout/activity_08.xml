@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
+  -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zzas.awms.page.Activity08">
+    <TextView
+        android:id="@+id/signb"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/zzas01"
+        android:gravity="center"
+        android:text="入库编辑"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/zzas02"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical"
+        android:layout_marginTop="90dp"
+        app:layout_constraintTop_toBottomOf="@id/signb">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/signb">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="入库仓库："
+                    android:gravity="center"/>
+                <com.xuexiang.xui.widget.spinner.materialspinner.MaterialSpinner
+                    style="@style/Material.SpinnerStyle"
+                    android:id="@+id/wahoName"
+                    android:textSize="?attr/xui_config_size_spinner_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_marginRight="20dp"
+                    app:ms_dropdown_max_height="100dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="入库库区："
+                    android:gravity="center"/>
+                <com.xuexiang.xui.widget.spinner.materialspinner.MaterialSpinner
+                    style="@style/Material.SpinnerStyle"
+                    android:id="@+id/trayCode"
+                    android:textSize="?attr/xui_config_size_spinner_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_marginRight="20dp"
+                    app:ms_dropdown_max_height="100dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="入库库位："
+                    android:gravity="center"/>
+                <com.xuexiang.xui.widget.spinner.materialspinner.MaterialSpinner
+                    style="@style/Material.SpinnerStyle"
+                    android:id="@+id/storCode"
+                    android:textSize="?attr/xui_config_size_spinner_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_marginRight="20dp"
+                    app:ms_dropdown_max_height="100dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <com.xuexiang.xui.widget.textview.supertextview.SuperButton
+                    style="@style/SuperButton.Green"
+                    android:id="@+id/reCheckBut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="确认仓库"
+                    android:layout_margin="20dp"/>
+                <com.xuexiang.xui.widget.textview.supertextview.SuperButton
+                    style="@style/SuperButton.Gray"
+                    android:id="@+id/cancelBut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="20dp"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
